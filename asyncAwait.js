@@ -7,8 +7,9 @@ function getApiSync() {
         .then(response => response.json())
         .then(data => {
               console.log(data)
+              console.log('Sync Test')
         })
-        console.log('Sync Test')
+        
 }
 
 // Asynchronous function
